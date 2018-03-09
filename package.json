@@ -1,0 +1,9 @@
+{
+  "name": "octolab",
+  "version": "1.0.0",
+  "description": "Open source productivity client for GitHub",
+  "main": "index.js",
+  "repository": "git@github.com:pepibumur/octolab.git",
+  "author": "Pedro Piñera <pepibumur@gmail.com>",
+  "license": "MIT"
+}
