@@ -10,6 +10,9 @@ Being productive working on multiple GitHub projects can be a very tedious task.
 ## Open source
 OctoLab is entirely open source. As I said, my main motivation is building a tool that I need and that other developers might need as well. I don't aim to create a business out of it, or devote all my time to build it. I build OctoLab on my spare time with anyone that would love to get involved. Everyone on this project has a voice that is listened and respected. Besides the code, the planning and the roadmap of the project  will also be open. We'll share what's coming on future releases and keep all the discussions open. If you like the project and would love to contribute, I recommend you to start by reading [contributing](CONTRIBUTING.md) guidelines.
 
+## Electron
+OctoLab is built using Electron. Electron is often criticised for its performance in apps like Slack or Atom. Each Electron app runs a Chromium instance that loads your application *((HTML, CSS & JS)* and that's obviously slower than running precompiled native code. However, it's the only framework that allows building cross-platform applications using open technologies. I considered initially building OctoLab for macOS using Swift but I'd be making the app less accessible. Developers that work on environments with Linux or Window wouldn't have access to the app. I have traditionally been an Objective-C/Swift developers but I recently shifted towards defaulting to more accesible and non-propietary technologies and programming languages for my projects *(whenever it's possible)*.
+
 ## Features
 - Offline mode 🌍
 - Notifications 📨
