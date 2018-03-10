@@ -31,6 +31,7 @@ OctoLab is built using Electron. Electron is often criticised for its performanc
 
 - [electron-compile](https://github.com/electron-userland/electron-compile)
 - [electron](https://electronjs.org/)
+- [electron-react-typescript-boilerplate](https://github.com/iRath96/electron-react-typescript-boilerplate)
 
 ## License
 
