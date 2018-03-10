@@ -1,6 +1,8 @@
 OctoLab
 ========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pepibumur/octolab.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/pepibumur/octolab.svg?branch=master)](https://travis-ci.org/pepibumur/octolab)
 
 OctoLab is an open source productivity app for GitHub
