@@ -1,6 +1,8 @@
 OctoLab
 ========
 
+[![Build Status](https://travis-ci.org/pepibumur/octolab.svg?branch=master)](https://travis-ci.org/pepibumur/octolab)
+
 OctoLab is an open source productivity app for GitHub
 
 ## Motivation
