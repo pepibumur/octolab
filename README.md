@@ -2,6 +2,12 @@ OctoLab
 ========
 
 [![Build Status](https://travis-ci.org/pepibumur/octolab.svg?branch=master)](https://travis-ci.org/pepibumur/octolab)
+![Github All Releases](https://img.shields.io/github/downloads/pepibumur/octolab/total.svg)
+![GitHub release](https://img.shields.io/github/release/pepibumur/octolab.svg)
+[![GitHub stars](https://img.shields.io/github/stars/pepibumur/octolab.svg)](https://github.com/pepibumur/octolab/stargazers)
+[![GitHub license](https://img.shields.io/github/license/pepibumur/octolab.svg)](https://github.com/pepibumur/octolab/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/pepibumur/octolab.svg)](https://github.com/pepibumur/octolab/issues)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/pepibumur/octolab.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fpepibumur%2Foctolab)
 
 OctoLab is an open source productivity app for GitHub
 
