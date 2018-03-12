@@ -2414,8 +2414,7 @@ var React = __webpack_require__(0);
 var react_dom_1 = __webpack_require__(37);
 var react_hot_loader_1 = __webpack_require__(47);
 var Root_1 = __webpack_require__(52);
-__webpack_require__(102);
-var _a = __webpack_require__(103), configureStore = _a.configureStore, history = _a.history;
+var _a = __webpack_require__(101), configureStore = _a.configureStore, history = _a.history;
 var store = configureStore();
 react_dom_1.render(React.createElement(react_hot_loader_1.AppContainer, null,
     React.createElement(Root_1.default, { store: store, history: history })), document.getElementById('root'));
@@ -6935,7 +6934,6 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var styles = __webpack_require__(101);
 var Home = /** @class */ (function (_super) {
     __extends(Home, _super);
     function Home() {
@@ -6943,7 +6941,7 @@ var Home = /** @class */ (function (_super) {
     }
     Home.prototype.render = function () {
         return (React.createElement("div", null,
-            React.createElement("div", { className: styles.container, "data-tid": "container" })));
+            React.createElement("div", { "data-tid": "container" })));
     };
     return Home;
 }(React.Component));
@@ -6954,26 +6952,13 @@ exports.default = Home;
 
 /***/ }),
 /* 101 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-module.exports = {"container":"Home__container__1-AZR"};
-
-/***/ }),
-/* 102 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var configureStore;
 if (true) {
-    configureStore = __webpack_require__(104);
+    configureStore = __webpack_require__(102);
 }
 else {
     configureStore = require('./configureStore.development');
@@ -6984,16 +6969,16 @@ module.exports = configureStore;
  ;(function register() { /* react-hot-loader/webpack */ if (false) { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */ if (typeof webpackExports === 'function') { __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', "/Users/pedropinera/code/pepibumur/octolab/app/store/configureStore.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "/Users/pedropinera/code/pepibumur/octolab/app/store/configureStore.ts"); } } })();
 
 /***/ }),
-/* 104 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var redux_1 = __webpack_require__(8);
-var redux_thunk_1 = __webpack_require__(105);
+var redux_thunk_1 = __webpack_require__(103);
 var history_1 = __webpack_require__(29);
 var react_router_redux_1 = __webpack_require__(10);
-var reducers_1 = __webpack_require__(106);
+var reducers_1 = __webpack_require__(104);
 var history = history_1.createBrowserHistory();
 var router = react_router_redux_1.routerMiddleware(history);
 var enhancer = redux_1.applyMiddleware(redux_thunk_1.default, router);
@@ -7008,7 +6993,7 @@ module.exports = {
  ;(function register() { /* react-hot-loader/webpack */ if (false) { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */ if (typeof webpackExports === 'function') { __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', "/Users/pedropinera/code/pepibumur/octolab/app/store/configureStore.production.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "/Users/pedropinera/code/pepibumur/octolab/app/store/configureStore.production.ts"); } } })();
 
 /***/ }),
-/* 105 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7037,7 +7022,7 @@ thunk.withExtraArgument = createThunkMiddleware;
 exports['default'] = thunk;
 
 /***/ }),
-/* 106 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
