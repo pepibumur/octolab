@@ -1,6 +1,8 @@
 OctoLab
 ========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pepibumur/octolab.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/pepibumur/octolab.svg?branch=master)](https://travis-ci.org/pepibumur/octolab)
 ![Github All Releases](https://img.shields.io/github/downloads/pepibumur/octolab/total.svg)
 ![GitHub release](https://img.shields.io/github/release/pepibumur/octolab.svg)
